@@ -28,3 +28,21 @@ For this project, only a 10% portion of the train folder was used for both train
 - Number of epochs: 24
 
 - Batch size: 64
+  
+**Training & Testing**
+
+**Training**: Loss ranging from 3.34 (epoch 1/24) to 0.014 (epoch 22/24) and ended at 0.026 (epoch 24/24)
+
+**Testing**: On the testing set with 533 instances, the model correctly classified 473, yielding **88.56% accuracy**
+
+**Classification on real image**
+
+![image](https://github.com/aanh1009/trafficsignsrecognition/assets/131883807/c12a8716-0d8c-4797-85ac-41e3e8cb4608)
+
+The **supposed class** is 1, the **model's output** is 1
+
+![image](https://github.com/aanh1009/trafficsignsrecognition/assets/131883807/f97d368d-947d-4233-b381-3ead91836867)
+
+The **supposed class** is still 1, the **model's output** is 11. 
+
+We can hypothesize that this image, apart from the traffic sign, also has a name tag, which increases its complexity and makes the mode generate an inaccurate classification
