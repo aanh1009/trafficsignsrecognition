@@ -18,3 +18,13 @@ For this project, only a 10% portion of the train folder was used for both train
   - The second layer has an output size of 43 - representing the probability of each class among the 43 classes.
 
 **Hyperparameters Setting**
+
+- Loss function: CrossEntropyLoss()
+
+- Optimizer: Adam 
+
+- Learning rate: 0.0005
+
+- Number of epochs: 24
+
+- Batch size: 64
